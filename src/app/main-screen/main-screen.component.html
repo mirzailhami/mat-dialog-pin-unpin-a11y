@@ -1,0 +1,12 @@
+<div #mainScreen class="main-screen-container">
+    <div class="content">
+        <h1>Main Screen</h1>
+        <div class="pin-positions-options">
+            <label for="pinPositions">Select Pin Position</label>
+            <select title="Pin Positions" name="pinPositions" id="pinPositions" [(ngModel)]="position">
+                <option *ngFor="let position of pinPositions" [ngValue]="position.value">{{position.name}}</option>
+            </select>
+        </div>
+        <button mat-raised-button color="primary" (click)="openDialog()">Open Dialog</button>
+    </div>
+</div>

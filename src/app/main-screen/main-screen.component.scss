@@ -1,0 +1,30 @@
+.main-screen-container {
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #eb2323;
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        height: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        .pin-positions-options {
+            padding: 10px;
+            margin-bottom: 10px;
+            label {
+                font-size: 20px;
+                margin-right: 10px;
+            }
+            select {
+                padding: 10px 5px;
+            }
+        }
+    }
+}
